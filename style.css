@@ -1,0 +1,89 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with a new gradient */
+body {
+    background-image: linear-gradient(to right, #e0f7fa, #0288d1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Main content area styling */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stopwatch container with a flexbox layout */
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Display styling with updated border radius and shadow */
+.display {
+    text-align: center;
+    font-size: 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons container */
+.buttons {
+    text-align: center;
+}
+
+/* Button styling with updated colors and shadow */
+button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0288d1;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
